@@ -11,6 +11,8 @@ import Allres from '../../../public/images/projects/allres.png'
 
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Ecommerce from '../../../public/images/projects/ecommerce.png'
+import GYM from '../../../public/images/projects/gymproj.png'
+
 import Link from "next/link";
 import Restaurant from '../../../public/images/projects/restaurant.png'
 import Online from '../../../public/images/projects/onlinecourse.png'
@@ -89,8 +91,49 @@ const ProjectsSection = () => {
       </h2>
       <ul  className="grid md:grid-cols-3 gap-8 md:gap-12">
 
-        {/* handy men  */}
+        {/* GYM FIT */}
           <li>
+
+<div>
+      <div
+        className="h-52 md:h-72 rounded-t-xl relative group"
+        style={{backgroundImage: `url(${GYM.src})`, backgroundSize: "cover" }}
+      >
+        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
+          <Link
+            href='https://github.com/WebDevZakaria/Gym-website'
+            className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            target="_blank"
+          >
+            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+          </Link>
+        
+            <Link
+            href='https://gym-fitt.vercel.app/'
+            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            target="_blank"
+          >
+            <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+          </Link>
+         
+        </div>
+      </div>
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
+        <h5 className="text-xl font-semibold mb-2">
+
+        Dynamic Fitness: Next-Level Gym Experience with Next.js and Framer Motion
+
+            </h5>
+
+        <p className="text-[#ADB7BE]">Next.js and Framer Motion-powered gym website. Seamlessly blending dynamic design with smooth animations</p>
+      </div>
+    </div>
+
+
+          </li>
+
+            {/* handy men  */}
+            <li>
 
 <div>
       <div
