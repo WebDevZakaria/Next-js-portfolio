@@ -7,19 +7,20 @@ const VideoPlayer = () => {
   let videosrc = "/videos/intro.mp4";
 
   return (
-    <div>
-      <h1 className="text-center">my Intoduction Video</h1>
+    <div className="mx-[-30px]">
+
+
       <ReactPlayer
-        width="500px"
-        height="400px"
         url={videosrc}
         controls={true}
         // light is usefull incase of dark mode
         light={false}
         // picture in picture
         pip={true}
+        width={400}
+        height={400}
       />
-      <source src={videosrc} type="video/mp4" />
+      <source src={videosrc} type="video/mp4"  />
     </div>
   );
 };

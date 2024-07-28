@@ -69,7 +69,7 @@ const HeroSection = () => {
               </span>          
             </a>
 
-            <div className="socials flex flex-row gap-2 mt-8 mx-[70px]">
+            <div className="socials flex flex-row gap-2 mt-8 mx-[130px] mb-[8px] lg:mx-[70px]">
           <Link href="https://github.com/WebDevZakaria"
            target="_blank"
           >
